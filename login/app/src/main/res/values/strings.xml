@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">login</string>
+    <string name="hu">Enter Username</string>
+    <string name="hp">Enter Password</string>
+    <string name="sub">Login</string>
+    <string name="word">ENTERED SUCCESSFULLY</string>
+</resources>
