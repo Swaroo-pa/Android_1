@@ -48,6 +48,7 @@
             android:id="@+id/password"
             android:hint="@string/hp"
             android:textColor="@color/white"
+            android:inputType="textPassword"
             android:textColorHint="@color/white"
             android:background="@android:color/transparent"/>
     </LinearLayout>

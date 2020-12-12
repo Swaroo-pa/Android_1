@@ -17,16 +17,16 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        /*username = findViewById(R.id.username);
+        username = findViewById(R.id.username);
         password = findViewById(R.id.password);
         button = findViewById(R.id.submit);
-
         button.setOnClickListener(new View.OnClickListener() {
             @Override
+            // checking whether the input matches the username and password then redirecting to next activity
             public void onClick(View v) {
                 if(username.getText().toString().equals("admin") && password.getText().toString().equals("password")){
-                    Intent i = new Intent(MainActivity.this,next.class);
-                    startActivity(i);
+                    Intent intent = new Intent(MainActivity.this,next.class);
+                    startActivity(intent);
 
                 }
                 else{
@@ -34,6 +34,6 @@ public class MainActivity extends AppCompatActivity {
                 }
 
             }
-        });*/
+        });
     }
 }
