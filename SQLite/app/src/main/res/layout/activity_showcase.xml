@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1,2"
+    tools:context=".Showcase"
+    android:background="#00BCD4"
+    >
+        <TableRow
+            android:background="#191616"
+            >
+            <TextView
+                android:text="Username"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:layout_column="1"
+                android:padding="10dp"
+                />
+            <TextView
+                android:padding="10dp"
+                android:text="Password"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:layout_column="1"
+                />
+        </TableRow>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</TableLayout>
