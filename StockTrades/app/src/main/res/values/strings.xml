@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Stock Trades</string>
+    <string name="title">Stock Strips</string>
+    <string name="filter_button_1">ALL</string>
+    <string name="filter_button_2">CHANGE</string>
+    <string name="filter_button_3">PRICE</string>
+    <string name="ltp">LTP</string>
+    <string name="change_per">(Change Per)</string>
+    <string name="change_price">Change Price</string>
+    <string name="sym_name">Symbol_name</string>
+    <string name="exc_name">Exc_name</string>
+    <string name="search_hint">Symbol Name</string>
+</resources>

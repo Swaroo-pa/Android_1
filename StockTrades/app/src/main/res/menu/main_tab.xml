@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/top_gainers"
+        android:title="Top_gainers"/>
+    <item
+        android:id="@+id/top_losers"
+        android:title="Top_losers"/>
+
+</menu>
